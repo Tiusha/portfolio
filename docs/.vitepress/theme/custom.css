@@ -1,53 +1,10 @@
-:root {
-  --vp-c-brand: #646cff;
-  --vp-c-brand-light: #747bff;
+  max-width: 800px;
+  margin: 0 auto;
 }
-
-/* Ensure the content is visible and styled */
-.VPDoc {
-  padding: 48px 20px !important; /* Keep the top/bottom padding, smaller side padding */
-  max-width: 1200px !important;  /* Set a max-width to prevent content from becoming too wide */
-  width: 100% !important;  /* Ensure the content still fills the available width */
-  margin: 0 auto !important;  /* Center the content */
-}
-
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
-}
 
 .medium-zoom-image {
   z-index: 1001 !important;
-}
-
-/* Remove the table of contents (TOC) area */
-.aside {
-  display: none !important;  /* Hide the sidebar where the TOC is */
-}
-
-/* Make the main content responsive */
-.vp-doc .content {
-  width: 100% !important;   /* Use full width */
-  max-width: 1200px !important;  /* Add a max-width to prevent excessive width */
-  margin: 0 auto !important;  /* Center the content */
-  padding: 0 20px !important;  /* Minimal padding for left and right sides */
-}
-
-/* Ensure the parent container takes the full width */
-.vp-doc {
-  width: 100% !important;
-  max-width: 1200px !important;  /* Set a max-width for larger screens */
-  display: flex;
-  justify-content: center;
-  padding: 48px 20px !important;  /* Keep top/bottom padding, minimal left/right padding */
-}
-
-/* Optional: Adjust the sidebar if it's limiting space */
-.sidebar {
-  display: none !important; /* Fully hide the sidebar */
-}
-
-.vp-doc .main {
-  width: 100% !important;  /* Ensure main content uses the full width */
-  max-width: 1200px !important; /* Max-width to prevent it from stretching too far */
 }
