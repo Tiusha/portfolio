@@ -5,7 +5,8 @@ export default {
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
-      { text: 'About me', link: '/about' }
+      { text: 'About me', link: '/about' },
+      { text: 'Resume', link: 'https://drive.google.com/file/d/186Bt50s64FzGeEx0tyDJjmlC7dDWVihz/view' }
     ],
     sidebar: [
       {
@@ -18,8 +19,8 @@ export default {
       {
         text: 'Contact details',
         items: [
-          { text: 'kozlova@mail.com' },
-          { text: '+1 938 374 728 748' },
+          { text: 'hello.kozlova@gmail.com' },
+          { text: '–' },
           { text: 'Montreal, Canada' }
         ]
       }
