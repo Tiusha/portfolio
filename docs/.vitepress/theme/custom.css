@@ -5,8 +5,8 @@
 
 /* Ensure the content is visible and styled */
 .VPDoc {
-  padding: 0 !important; /* Remove the padding constraint */
-  max-width: 100% !important; /* Ensure it takes the full width */
+  padding: 48px 15px 0 !important; /* Keep top padding, reduce left/right padding, and keep the bottom */
+  max-width: 100% !important;
   margin: 0 auto !important;
 }
 
@@ -29,7 +29,7 @@
   width: 100% !important;   /* Force the content to take up full width */
   max-width: 100% !important;  /* Remove any max-width constraint */
   margin: 0 !important;  /* Reset margin */
-  padding: 0 !important;  /* Remove any padding */
+  padding: 0 15px !important;  /* Apply smaller padding on the left and right */
 }
 
 /* Ensure the parent container takes the full width */
@@ -38,7 +38,7 @@
   max-width: 100% !important;
   display: flex;
   justify-content: center;  /* Center the content */
-  padding: 0 !important; /* Remove padding */
+  padding: 48px 15px 0 !important;  /* Keep top padding, reduce side padding */
 }
 
 /* Optional: Adjust the sidebar if it's limiting space */
