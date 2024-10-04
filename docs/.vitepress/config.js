@@ -37,5 +37,6 @@ export default {
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' }
     ]
+    outline: false
   }
 }
