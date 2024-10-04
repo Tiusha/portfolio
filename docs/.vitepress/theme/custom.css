@@ -6,7 +6,7 @@
 /* Ensure the content is visible and styled */
 .VPDoc {
   padding: 20px;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -21,19 +21,30 @@
 
 /* Remove the table of contents (TOC) area */
 .aside {
-  display: none !important;  /* Make sure it's fully hidden */
+  display: none !important;  /* Hide the sidebar where the TOC is */
 }
 
 /* Make the main content full width */
 .vp-doc .content {
-  width: 100% !important;   /* Force the content to take up full width */
-  max-width: 100% !important;  /* Remove the max-width constraint */
-  margin: 0 !important;  /* Reset margin to ensure full width usage */
-  padding: 0 20px;  /* Add some padding for better readability */
+  width: calc(100% - 30px) !important;   /* Take up the full width minus some padding */
+  max-width: 100% !important;  /* Remove any max-width constraint */
+  margin: 0 !important;  /* Reset margin */
+  padding: 0 15px;  /* Add padding for readability */
 }
 
-/* Make sure the parent container uses the full width */
+/* Ensure the parent container takes the full width */
 .vp-doc {
-  width: 100% !important;  /* Ensure the doc container also takes full width */
+  width: 100% !important;
   max-width: 100% !important;
+  display: flex;
+  justify-content: center;  /* Center content */
+}
+
+/* Optional: Adjust the sidebar if it's limiting space */
+.sidebar {
+  width: 20%;  /* Adjust the sidebar width if necessary */
+}
+
+.vp-doc .main {
+  width: 80% !important;  /* Give more room to the content */
 }
