@@ -12,8 +12,10 @@ export default {
       {
         text: 'Recent projects',
         items: [
-          { text: 'Project 1', link: '/projects/project-1' },
-          { text: 'Project 2', link: '/projects/project-2' }
+          { text: 'Management System for Optimal Production Control', link: '/projects/project-1' },
+          { text: 'An app for innovative device customization', link: '/projects/project-2' },
+          { text: '0 to 1 project : Healthcare appointments, streamlined for convenience', link: '/projects/project-3' },
+          { text: 'Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
         ]
       },
       {
