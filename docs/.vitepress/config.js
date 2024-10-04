@@ -21,22 +21,22 @@ export default {
           { text: 'An app for innovative device customization', link: '/projects/project-2' }
         ]
       },
-       {
+      {
         text: 'Project #3',
         items: [
-          { text: '0 to 1 project : Healthcare appointments, streamlined for convenience', link: '/projects/project-3' }
+          { text: '0 to 1 project: Healthcare appointments, streamlined for convenience', link: '/projects/project-3' }
         ]
       },
-       {
+      {
         text: 'Project #4',
         items: [
           { text: 'Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
         ]
-      },
+      }
     ],
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' }
-    ]
-    outline: false
+    ],
+    outline: false  // Ensure this comma is added
   }
 }
