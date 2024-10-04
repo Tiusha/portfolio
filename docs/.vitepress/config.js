@@ -1,5 +1,5 @@
 export default {
-  base: '/',
+  base: '/portfolio',
   title: 'Egor Gorev',
   description: 'Personal blog of Egor Gorev',
   ignoreDeadLinks: true,
