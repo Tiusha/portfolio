@@ -1,10 +1,35 @@
-  max-width: 800px;
-  margin: 0 auto;
+/* Existing styles you provided */
+max-width: 800px;
+margin: 0 auto;
 }
+
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
+}
 
 .medium-zoom-image {
   z-index: 1001 !important;
+}
+
+/* New styles to remove the aside and expand content */
+
+/* Remove the table of contents (TOC) and sidebar */
+.aside {
+  display: none !important;  /* Hide the sidebar/aside element completely */
+}
+
+/* Ensure the main content takes the full width */
+.vp-doc .content {
+  width: 100% !important;    /* Ensure the content takes the full available width */
+  max-width: 100% !important;  /* Remove any max-width restriction */
+  margin: 0 auto !important;  /* Center the content */
+  padding: 0 20px !important;  /* Add minimal padding on left and right for readability */
+}
+
+/* Adjust the parent container */
+.vp-doc {
+  width: 100% !important;
+  max-width: 100% !important;  /* Ensure the main container takes full width */
+  padding: 48px 20px !important;  /* Keep some padding at the top and bottom */
 }
