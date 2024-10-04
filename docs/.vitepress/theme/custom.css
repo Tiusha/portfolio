@@ -9,6 +9,7 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
@@ -16,4 +17,16 @@
 
 .medium-zoom-image {
   z-index: 1001 !important;
+}
+
+/* Remove the table of contents (TOC) area */
+.aside {
+  display: none;  /* Hides the sidebar where the TOC is */
+}
+
+/* Make the main content full width */
+.vp-doc .content {
+  width: 100%;  /* Make the content take up the full width */
+  max-width: none;  /* Remove any max-width constraint */
+  margin: 0 auto;  /* Center the content */
 }
