@@ -10,12 +10,15 @@ export default {
     ],
     sidebar: [
       {
-        text: 'Recent projects',
+        text: 'Project #1',
         items: [
-          { text: '1. Management System for Optimal Production Control', link: '/projects/project-1' },
-          { text: '2. An app for innovative device customization', link: '/projects/project-2' },
-          { text: '3. 0 to 1 project : Healthcare appointments, streamlined for convenience', link: '/projects/project-3' },
-          { text: '4. Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
+          { text: 'Management System for Optimal Production Control', link: '/projects/project-1' }
+        ]
+      },
+      {
+        text: 'Project #2',
+        items: [
+          { text: 'An app for innovative device customization', link: '/projects/project-2' }
         ]
       },
       {
