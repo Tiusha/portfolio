@@ -25,8 +25,7 @@ export default {
       }
     ],
     socialLinks: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' },
-      { icon: 'behance', link: 'https://www.behance.net/your-profile' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' }
     ]
   }
 }
