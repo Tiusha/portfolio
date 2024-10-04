@@ -1,36 +1,33 @@
 export default {
   base: '/portfolio',
-  title: 'Egor Gorev',
-  description: 'Personal blog of Egor Gorev',
+  title: 'Anastasia Kozlova',
+  description: 'Product Designer',
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
-      { text: 'Now', link: '/now' },
-      { text: 'Archive', link: '/archive' },
-      { text: 'About', link: '/about' }
+      { text: 'About me', link: '/about' }
     ],
     sidebar: [
       {
-        text: 'Travel',
+        text: 'Recent projects',
         items: [
-          { text: 'Matterhorn', link: '/posts/matterhorn' },
-          { text: 'Tenerife', link: '/travel/tenerife' }
+          { text: 'Project 1', link: '/projects/project-1' },
+          { text: 'Project 2', link: '/projects/project-2' }
         ]
       },
       {
-        text: 'Bikepacking',
+        text: 'Contact details',
         items: [
-          { text: 'Berlin-Hamburg', link: '/bikepacking/berlin-hamburg' },
-          { text: 'Steppenwolf', link: '/bikepacking/steppenwolf' },
-          { text: 'Around The Netherlands', link: '/bikepacking/around-the-netherlands' }
+          { text: 'kozlova@mail.com'},
+          { text: '+1 938 374 728 748'},
+          { text: 'Montreal, Canada'}
         ]
       }
     ],
     socialLinks: [
-      { icon: 'instagram', link: 'https://instagram.com/egorev' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' },
+      { icon: 'behance', link: 'https://www.behance.net/your-profile' },
     ],
-    search: {
-      provider: 'local'
     }
   }
 }
