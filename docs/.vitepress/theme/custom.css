@@ -1,4 +1,4 @@
-/* Existing styles you provided */
+/* Existing styles */
 max-width: 800px;
 margin: 0 auto;
 }
@@ -11,8 +11,6 @@ margin: 0 auto;
 .medium-zoom-image {
   z-index: 1001 !important;
 }
-
-/* New styles to remove the aside and expand content */
 
 /* Remove the table of contents (TOC) and sidebar */
 .aside {
@@ -32,4 +30,12 @@ margin: 0 auto;
   width: 100% !important;
   max-width: 100% !important;  /* Ensure the main container takes full width */
   padding: 48px 20px !important;  /* Keep some padding at the top and bottom */
+}
+
+/* Target the post div to make it wider */
+.vp-doc .post-content {
+  width: 100% !important;
+  max-width: 1200px !important;  /* Adjust this value to make the content wider */
+  margin: 0 auto !important;  /* Center the post content */
+  padding: 0 20px !important;  /* Minimal padding for readability */
 }
