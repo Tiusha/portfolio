@@ -5,9 +5,9 @@
 
 /* Ensure the content is visible and styled */
 .VPDoc {
-  padding: 48px 0 !important; /* Keep only top and bottom padding */
+  padding: 48px 15px !important; /* Keep top and bottom padding, reduce left/right padding */
   max-width: 100% !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
 }
 
 /* Medium Zoom styles */
@@ -26,19 +26,19 @@
 
 /* Make the main content full width */
 .vp-doc .content {
-  width: 100vw !important;   /* Force the content to take up full viewport width */
-  max-width: 100vw !important;  /* Remove any max-width constraint */
+  width: 100% !important;   /* Use full available width without overflow */
+  max-width: 100% !important;  /* Ensure no max-width restriction */
   margin: 0 !important;  /* Reset margin */
-  padding: 0 20px !important;  /* Minimal padding for left and right sides */
+  padding: 0 15px !important;  /* Apply minimal padding for left and right */
 }
 
 /* Ensure the parent container takes the full width */
 .vp-doc {
-  width: 100vw !important; /* Force full viewport width */
-  max-width: 100vw !important;
+  width: 100% !important; /* Full width without causing overflow */
+  max-width: 100% !important;
   display: flex;
   justify-content: center;
-  padding: 48px 0 !important;  /* Keep top and bottom padding */
+  padding: 48px 15px !important;  /* Keep top and bottom padding, minimal left/right padding */
 }
 
 /* Optional: Adjust the sidebar if it's limiting space */
@@ -48,5 +48,5 @@
 
 .vp-doc .main {
   width: 100% !important;  /* Ensure main content uses the full width */
-  max-width: 100vw !important; /* Remove any max-width constraint */
+  max-width: 100% !important; /* Remove any max-width constraint */
 }
