@@ -21,12 +21,19 @@
 
 /* Remove the table of contents (TOC) area */
 .aside {
-  display: none;  /* Hides the sidebar where the TOC is */
+  display: none !important;  /* Make sure it's fully hidden */
 }
 
 /* Make the main content full width */
 .vp-doc .content {
-  width: 100%;  /* Make the content take up the full width */
-  max-width: none;  /* Remove any max-width constraint */
-  margin: 0 auto;  /* Center the content */
+  width: 100% !important;   /* Force the content to take up full width */
+  max-width: 100% !important;  /* Remove the max-width constraint */
+  margin: 0 !important;  /* Reset margin to ensure full width usage */
+  padding: 0 20px;  /* Add some padding for better readability */
+}
+
+/* Make sure the parent container uses the full width */
+.vp-doc {
+  width: 100% !important;  /* Ensure the doc container also takes full width */
+  max-width: 100% !important;
 }
