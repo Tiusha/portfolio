@@ -5,9 +5,9 @@
 
 /* Ensure the content is visible and styled */
 .VPDoc {
-  padding: 20px;
-  max-width: 100%;
-  margin: 0 auto;
+  padding: 0 !important; /* Remove the padding constraint */
+  max-width: 100% !important; /* Ensure it takes the full width */
+  margin: 0 auto !important;
 }
 
 /* Medium Zoom styles */
@@ -26,10 +26,10 @@
 
 /* Make the main content full width */
 .vp-doc .content {
-  width: calc(100% - 30px) !important;   /* Take up the full width minus some padding */
+  width: 100% !important;   /* Force the content to take up full width */
   max-width: 100% !important;  /* Remove any max-width constraint */
   margin: 0 !important;  /* Reset margin */
-  padding: 0 15px;  /* Add padding for readability */
+  padding: 0 !important;  /* Remove any padding */
 }
 
 /* Ensure the parent container takes the full width */
@@ -37,14 +37,16 @@
   width: 100% !important;
   max-width: 100% !important;
   display: flex;
-  justify-content: center;  /* Center content */
+  justify-content: center;  /* Center the content */
+  padding: 0 !important; /* Remove padding */
 }
 
 /* Optional: Adjust the sidebar if it's limiting space */
 .sidebar {
-  width: 20%;  /* Adjust the sidebar width if necessary */
+  display: none !important; /* Fully hide the sidebar */
 }
 
 .vp-doc .main {
-  width: 80% !important;  /* Give more room to the content */
+  width: 100% !important;  /* Ensure main content uses the full width */
+  max-width: 100% !important; /* Remove any max-width constraint */
 }
