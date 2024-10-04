@@ -24,13 +24,13 @@ export default {
        {
         text: 'Project #3',
         items: [
-          { text: '0 to 1 project : Healthcare appointments, streamlined for convenience' }
+          { text: '0 to 1 project : Healthcare appointments, streamlined for convenience', link: '/projects/project-3' }
         ]
       },
        {
         text: 'Project #4',
         items: [
-          { text: 'Supercharging recruitment with fast, easy-to-use software' }
+          { text: 'Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
         ]
       },
     ],
