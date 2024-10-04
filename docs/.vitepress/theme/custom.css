@@ -5,9 +5,10 @@
 
 /* Ensure the content is visible and styled */
 .VPDoc {
-  padding: 48px 15px !important; /* Keep top and bottom padding, reduce left/right padding */
-  max-width: 100% !important;
-  margin: 0 auto !important;
+  padding: 48px 20px !important; /* Keep the top/bottom padding, smaller side padding */
+  max-width: 1200px !important;  /* Set a max-width to prevent content from becoming too wide */
+  width: 100% !important;  /* Ensure the content still fills the available width */
+  margin: 0 auto !important;  /* Center the content */
 }
 
 /* Medium Zoom styles */
@@ -24,21 +25,21 @@
   display: none !important;  /* Hide the sidebar where the TOC is */
 }
 
-/* Make the main content full width */
+/* Make the main content responsive */
 .vp-doc .content {
-  width: 100% !important;   /* Use full available width without overflow */
-  max-width: 100% !important;  /* Ensure no max-width restriction */
-  margin: 0 !important;  /* Reset margin */
-  padding: 0 15px !important;  /* Apply minimal padding for left and right */
+  width: 100% !important;   /* Use full width */
+  max-width: 1200px !important;  /* Add a max-width to prevent excessive width */
+  margin: 0 auto !important;  /* Center the content */
+  padding: 0 20px !important;  /* Minimal padding for left and right sides */
 }
 
 /* Ensure the parent container takes the full width */
 .vp-doc {
-  width: 100% !important; /* Full width without causing overflow */
-  max-width: 100% !important;
+  width: 100% !important;
+  max-width: 1200px !important;  /* Set a max-width for larger screens */
   display: flex;
   justify-content: center;
-  padding: 48px 15px !important;  /* Keep top and bottom padding, minimal left/right padding */
+  padding: 48px 20px !important;  /* Keep top/bottom padding, minimal left/right padding */
 }
 
 /* Optional: Adjust the sidebar if it's limiting space */
@@ -48,5 +49,5 @@
 
 .vp-doc .main {
   width: 100% !important;  /* Ensure main content uses the full width */
-  max-width: 100% !important; /* Remove any max-width constraint */
+  max-width: 1200px !important; /* Max-width to prevent it from stretching too far */
 }
