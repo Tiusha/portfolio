@@ -21,14 +21,18 @@ export default {
           { text: 'An app for innovative device customization', link: '/projects/project-2' }
         ]
       },
-      {
-        text: 'Contact details',
+       {
+        text: 'Project #3',
         items: [
-          { text: 'hello.kozlova@gmail.com' },
-          { text: '–' },
-          { text: 'Montreal, Canada' }
+          { text: '0 to 1 project : Healthcare appointments, streamlined for convenience' }
         ]
-      }
+      },
+       {
+        text: 'Project #4',
+        items: [
+          { text: 'Supercharging recruitment with fast, easy-to-use software' }
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' }
