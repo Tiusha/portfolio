@@ -1,5 +1,5 @@
 export default {
-  base: '/portfolio',
+  base: '/portfolio/',  // Make sure the trailing slash is present
   title: 'Anastasia Kozlova',
   description: 'Product Designer',
   ignoreDeadLinks: true,
@@ -18,16 +18,15 @@ export default {
       {
         text: 'Contact details',
         items: [
-          { text: 'kozlova@mail.com'},
-          { text: '+1 938 374 728 748'},
-          { text: 'Montreal, Canada'}
+          { text: 'kozlova@mail.com' },
+          { text: '+1 938 374 728 748' },
+          { text: 'Montreal, Canada' }
         ]
       }
     ],
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' },
-      { icon: 'behance', link: 'https://www.behance.net/your-profile' },
-    ],
-    }
+      { icon: 'behance', link: 'https://www.behance.net/your-profile' }
+    ]
   }
 }
