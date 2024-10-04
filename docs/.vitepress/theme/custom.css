@@ -26,9 +26,9 @@ margin: 0 auto;
 
 /* Expand the main content area to full width */
 .vp-doc .content {
-  width: 100% !important;   /* Ensure the content takes the full available width */
+  width: 100% !important;
   max-width: 1200px !important;  /* Adjust this max-width for your desired width */
-  margin: 0 auto !important;  /* Center the content */
+  margin: 0 auto !important;
   padding: 0 20px !important;  /* Add minimal padding on left and right for readability */
 }
 
@@ -37,4 +37,13 @@ margin: 0 auto;
   width: 100% !important;
   max-width: 1200px !important;  /* Set a wider max-width */
   margin: 0 auto !important;
+}
+
+/* Fix the content-container to remove the orange columns and allow full width */
+.content-container {
+  width: 100% !important;    /* Make the content container full width */
+  max-width: 1200px !important;  /* Adjust this as needed */
+  margin: 0 auto !important;  /* Center the content */
+  padding: 0 20px !important;  /* Add minimal padding for readability */
+  background-color: transparent !important; /* Remove the background color (orange columns) */
 }
