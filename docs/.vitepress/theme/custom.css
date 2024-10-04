@@ -1,12 +1,9 @@
-/* Set a wider max-width for the main content */
-max-width: 800px;
-margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
-
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
-}
 
 .medium-zoom-image {
   z-index: 1001 !important;
