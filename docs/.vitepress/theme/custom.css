@@ -54,3 +54,9 @@
   padding: 0 !important;  /* Remove all padding */
   background-color: transparent !important; /* Remove the background color */
 }
+
+/* Underline links in the sidebar on hover */
+.sidebar a:hover {
+  text-decoration: underline !important;  /* Add underline when hovering */
+}
+
