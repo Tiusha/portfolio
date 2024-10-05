@@ -55,8 +55,13 @@
   background-color: transparent !important; /* Remove the background color */
 }
 
-/* Underline links in the sidebar on hover */
+/* Ensure links in the sidebar are underlined on hover */
 .sidebar a:hover {
-  text-decoration: underline !important;  /* Add underline when hovering */
+  text-decoration: underline !important;  /* Force underline on hover */
+}
+
+/* Optional: Ensure the normal link state does not have underline */
+.sidebar a {
+  text-decoration: none !important;  /* No underline by default */
 }
 
