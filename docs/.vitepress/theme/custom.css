@@ -1,14 +1,8 @@
-:root {
-  --vp-c-brand: #646cff;
-  --vp-c-brand-light: #747bff;
+/* Set a wider max-width for the main content */
+max-width: 800px;
+margin: 0 auto;
 }
 
-/* Ensure the content is visible and styled */
-.VPDoc {
-  padding: 20px;
-  max-width: 100%;
-  margin: 0 auto;
-}
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
@@ -27,7 +21,7 @@
 .vp-doc {
   width: 100% !important;
   max-width: 100% !important;
-  padding: 48px 20px !important;  /* Keep top and bottom padding, minimal left/right padding */
+  padding: 48px 0 !important;  /* Remove left and right padding, keep top and bottom padding */
 }
 
 /* Expand the main content area to full width */
@@ -35,7 +29,7 @@
   width: 100% !important;
   max-width: 1200px !important;  /* Adjust this max-width for your desired width */
   margin: 0 auto !important;
-  padding: 0 20px !important;  /* Add minimal padding on left and right for readability */
+  padding: 0 !important;  /* Remove all padding */
 }
 
 /* Adjust the post div itself to take the full width */
@@ -43,6 +37,7 @@
   width: 100% !important;
   max-width: 1200px !important;  /* Set a wider max-width */
   margin: 0 auto !important;
+  padding: 0 !important;  /* Remove all padding */
 }
 
 /* Fix the content-container to remove the orange columns and allow full width */
@@ -50,6 +45,6 @@
   width: 100% !important;    /* Make the content container full width */
   max-width: 1200px !important;  /* Adjust this as needed */
   margin: 0 auto !important;  /* Center the content */
-  padding: 0 20px !important;  /* Add minimal padding for readability */
-  background-color: transparent !important; /* Remove the background color (orange columns) */
+  padding: 0 !important;  /* Remove all padding */
+  background-color: transparent !important; /* Remove the background color */
 }
