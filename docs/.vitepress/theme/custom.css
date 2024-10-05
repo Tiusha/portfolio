@@ -1,8 +1,14 @@
-/* Set a wider max-width for the main content */
-max-width: 800px;
-margin: 0 auto;
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
 }
 
+/* Ensure the content is visible and styled */
+.VPDoc {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 /* Medium Zoom styles */
 .medium-zoom-overlay {
   z-index: 1000 !important;
