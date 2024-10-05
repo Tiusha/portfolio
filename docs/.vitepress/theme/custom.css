@@ -55,14 +55,17 @@
   background-color: transparent !important; /* Remove the background color */
 }
 
-/* Underline links in the VitePress sidebar on hover */
-.vp-sidebar a:hover {
-  text-decoration: underline !important;  /* Add underline on hover */
+/* Target the links in VitePress sidebar specifically */
+.vp-sidebar .outline-link:hover, 
+.vp-sidebar .nav-link:hover,
+.vp-sidebar .vp-nav a:hover {
+  text-decoration: underline !important;  /* Force underline on hover */
 }
 
-/* Optional: Remove underline from normal link state */
-.vp-sidebar a {
+/* Optional: Remove underline from normal state */
+.vp-sidebar .outline-link,
+.vp-sidebar .nav-link,
+.vp-sidebar .vp-nav a {
   text-decoration: none !important;  /* No underline by default */
 }
-
 
