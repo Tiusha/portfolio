@@ -1,8 +1,6 @@
-# Management System for Optimal Production Control
 
 
-## Innovative App Design:
-# Enhancing Internal Operational Processes
+# Innovative App Design: Enhancing Internal Operational Processes
 I led the zero-to-one development of an internal application designed to enhance operations across our client's store, warehouse, printing facility, and delivery services. This app includes a sophisticated reporting feature that enables the creation of custom dashboards for monitoring key performance metrics, significantly enhancing operational visibility from the ground up![Alt text](../images/project1-Analytics.png){data-zoomable}
 
 
