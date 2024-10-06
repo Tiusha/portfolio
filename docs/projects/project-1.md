@@ -33,7 +33,9 @@ Robust filtering mechanisms before selection
 
  ![Alt text](../images/project1-Robust_filtering_mechanisms_before_selection.png){data-zoomable}
 Robust filtering mechanisms after selection
+<br> <!-- Adds one line of space -->
 
+<br> <!-- 2nd line of space -->
 
 # Results and Impact
 ## Increased Operational Visibility: 
@@ -47,6 +49,7 @@ Close collaboration with stakeholders during the project ensured the app met the
 
 ## Operational Improvements:
 After deployment, the client reported a 40% increase in workflow efficiency, and the clarity of processes improved significantly, enhancing overall satisfaction with organizational operations.
+
 
 
 
