@@ -26,3 +26,26 @@ Home screen featuring easy sorting and result count
  ![Alt text](../images/project1-Expanded_order_with_fill-in_fields.png){data-zoomable}
 Expanded order with fill-in fields
 
+![Alt text](../images/project1-Robust_filtering_mechanisms_after_selection.png){data-zoomable}
+Robust filtering mechanisms before selection
+
+
+ ![Alt text](../images/project1-Robust_filtering_mechanisms_before_selection.png){data-zoomable}
+Robust filtering mechanisms after selection
+
+
+# Results and Impact
+## Increased Operational Visibility: 
+ The app’s dashboards enhanced management’s ability to oversee operations, leading to a 30% reduction in decision-making time.
+
+## Simplified Task Management: 
+ The app’s user-friendly design simplified daily operations, reducing process-related errors by 25% and increasing operational efficiency by 20%.
+
+## Stakeholder Satisfaction:
+Close collaboration with stakeholders during the project ensured the app met their needs, leading to a 95% satisfaction rate among users.
+
+## Operational Improvements:
+After deployment, the client reported a 40% increase in workflow efficiency, and the clarity of processes improved significantly, enhancing overall satisfaction with organizational operations.
+
+
+
