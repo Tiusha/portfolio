@@ -23,16 +23,20 @@ Crafted a detailed project blueprint to guide the development process, ensuring 
 Developed dashboards that provided essential real-time insights into asset performance, supporting quick and informed decision-making.
 ![Alt text](../images/project1-Home_screen_featuring_easy_sorting_and_result_count.png){data-zoomable}
 Home screen featuring easy sorting and result count
+<br> 
 
  ![Alt text](../images/project1-Expanded_order_with_fill-in_fields.png){data-zoomable}
 Expanded order with fill-in fields
+<br> 
 
 ![Alt text](../images/project1-Robust_filtering_mechanisms_after_selection.png){data-zoomable}
 Robust filtering mechanisms before selection
-
+<br> 
 
  ![Alt text](../images/project1-Robust_filtering_mechanisms_before_selection.png){data-zoomable}
 Robust filtering mechanisms after selection
+<br> 
+
 <br> <!-- Adds one line of space -->
 
 <br> <!-- 2nd line of space -->
