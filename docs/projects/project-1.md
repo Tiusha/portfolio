@@ -22,19 +22,16 @@ Crafted a detailed project blueprint to guide the development process, ensuring 
 ## Custom Dashboard Design
 Developed dashboards that provided essential real-time insights into asset performance, supporting quick and informed decision-making.
 ![Alt text](../images/project1-Home_screen_featuring_easy_sorting_and_result_count.png){data-zoomable}
-Home screen featuring easy sorting and result count
 <div style="margin-top: 20px;"></div>
 
  ![Alt text](../images/project1-Expanded_order_with_fill-in_fields.png){data-zoomable}
-Expanded order with fill-in fields
 <div style="margin-top: 20px;"></div>
 
 ![Alt text](../images/project1-Robust_filtering_mechanisms_after_selection.png){data-zoomable}
-Robust filtering mechanisms before selection
 <div style="margin-top: 20px;"></div>
 
  ![Alt text](../images/project1-Robust_filtering_mechanisms_before_selection.png){data-zoomable}
-Robust filtering mechanisms after selection
+
 
 
 <div style="margin-top: 32px;"></div> <!-- Adds 30px of space -->
