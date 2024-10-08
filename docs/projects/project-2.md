@@ -8,10 +8,12 @@ In the rapidly evolving e-commerce landscape, the ability to personalize product
 
 ## Proposed concept
 ![Alt text](../images/project2-concept1.png){data-zoomable}
+![Alt text](../images/project2-concept2.png){data-zoomable}
+
 
 ## Objectives and Actions
 
-### Define dhe target audience
+### Define the target audience
 Action: Conducted comprehensive market research to create detailed personas for our target demographic.
 Outcome: Identified people aged 20-45 with interests in lifestyle trends, arts, and personal expression as our core audience. 
 ### Enhance user engagement
@@ -39,16 +41,16 @@ Solution: Streamlined the customization options and introduced guided tutorials,
 
 ## Final design
 ![Alt text](../images/project2-final_design1.png){data-zoomable}
-1.First step of the customization - selection of the preferred device color.
-2.Fully creative mode allows the creation of a unique background color.
+1. First step of the customization - selection of the preferred device colour.
+2. Fully creative mode allows the creation of a unique background colour.
 
 ![Alt text](../images/project2-final_design2.png){data-zoomable}
-1.Intuitive pop-ups via a toolbar similar to those in drawing applications.
-2.A confirmation pop-up appears before exiting the process.
+1. Intuitive pop-ups via a toolbar similar to those in drawing applications.
+2. A confirmation pop-up appears before exiting the process.
 
 ![Alt text](../images/project2-final_design3.png){data-zoomable}
-1.Custom fonts and colors to enhance the design with a message.
-2.Personalization with stickers - resize, rotate & position for a unique look.
+1. Custom fonts and colours to enhance the design with a message.
+2. Personalization with stickers - resize, rotate & position for a unique look.
 
 
 ## Results and Reflections
