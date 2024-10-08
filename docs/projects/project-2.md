@@ -15,10 +15,10 @@ In the rapidly evolving e-commerce landscape, the ability to personalize product
 
 ### Define the target audience
 Action: Conducted comprehensive market research to create detailed personas for our target demographic.
-Outcome: Identified people aged 20-45 with interests in lifestyle trends, arts, and personal expression as our core audience. 
+Outcome: Identified people aged 20-45 with interests  in lifestyle trends, arts, and personal expression as our core audience. 
 ### Enhance user engagement
 Action: Developed a user customization feature that enabled users to personalize their vaping devices.
-Outcome: This feature significantly enhanced user interaction with the brand, turning standard customers into brand advocates.
+Outcome: This feature significantly enhanced user  interaction with the brand, turning standard customers into brand advocates.
 
 
 ## Challenges and Solutions. Interface redesign challenges
@@ -41,16 +41,13 @@ Solution: Streamlined the customization options and introduced guided tutorials,
 
 ## Final design
 ![Alt text](../images/project2-final_design1.png){data-zoomable}
-1. First step of the customization - selection of the preferred device colour.
-2. Fully creative mode allows the creation of a unique background colour.
+
 
 ![Alt text](../images/project2-final_design2.png){data-zoomable}
-1. Intuitive pop-ups via a toolbar similar to those in drawing applications.
-2. A confirmation pop-up appears before exiting the process.
+
 
 ![Alt text](../images/project2-final_design3.png){data-zoomable}
-1. Custom fonts and colours to enhance the design with a message.
-2. Personalization with stickers - resize, rotate & position for a unique look.
+
 
 
 ## Results and Reflections
