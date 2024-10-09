@@ -23,9 +23,10 @@ I developed detailed user profiles and dashboards that allow patients to monitor
 I integrated a section for health articles and interactive content to boost user engagement and provide valuable wellness insights.
 ![Alt text](../images/project3-resource_center_integration.png){data-zoomable}
 
-## Process 
+## Process
 ### Prototyping:
 Joined the project at the prototyping stage and collaborated closely with the design lead to create the required functionalities.
+
 
 ### Iterative design and testing:
 Worked through multiple design iterations, incorporating feedback from project managers and adjusting features to better meet user needs.
@@ -42,13 +43,10 @@ Utilized Sketch for design, Zeplin for handoff to engineers, and InVision App fo
 ## Results and Reflections
 ### Increased access:
 Following the launch of the Telemedicine platform, there was a 50% increase in new users signing up for health consultations, demonstrating enhanced access to medical services.
-
 ### Doctor collaboration:
 The platform facilitated a 30% rise in collaborative cases among specialists, improving multi-disciplinary approaches to patient care.
-
 ### User engagement:
 The introduction of customizable health dashboards and interactive tools led to a 40% increase in user engagement with health tracking features.
-
 ### Customer satisfaction:
 Post-launch surveys indicated a 90% satisfaction rate among users, highlighting the platform’s effectiveness in meeting their medical and health management needs.
 
