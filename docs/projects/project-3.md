@@ -8,7 +8,7 @@ The primary challenge was to merge a wide range of functionalities into a cohere
 ![Alt text](../images/project3-key_challenge.png){data-zoomable}
 
 
-## Thes solution
+## The solution
 ### Comprehensive communication tools: 
 I designed a seamless suite of communication tools including video calls, messaging, and live chat to enhance interaction between patients and healthcare providers.
 ![Alt text](../images/project3-comprehensive_communication_tools.png){data-zoomable}
