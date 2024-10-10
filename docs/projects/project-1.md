@@ -36,17 +36,14 @@ Developed dashboards that provided essential real-time insights into asset perfo
 
 <div style="margin-top: 32px;"></div> <!-- Adds 30px of space -->
 
-# Results and Impact
-## Increased Operational Visibility: 
+## Results and Impact
+### Increased Operational Visibility: 
  The app’s dashboards enhanced management’s ability to oversee operations, leading to a 30% reduction in decision-making time.
-
-## Simplified Task Management: 
+### Simplified Task Management: 
  The app’s user-friendly design simplified daily operations, reducing process-related errors by 25% and increasing operational efficiency by 20%.
-
-## Stakeholder Satisfaction:
+### Stakeholder Satisfaction:
 Close collaboration with stakeholders during the project ensured the app met their needs, leading to a 95% satisfaction rate among users.
-
-## Operational Improvements:
+### Operational Improvements:
 After deployment, the client reported a 40% increase in workflow efficiency, and the clarity of processes improved significantly, enhancing overall satisfaction with organizational operations.
 
 
