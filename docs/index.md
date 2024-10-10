@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# hi there! 👋🏻
+# Hi there! 👋🏻
 I'm Anastasia, a naturally curious product designer with a love for learning and a deep appreciation for both soft and hard skills. I believe that great design is not just about creating something beautiful but also about making it meaningful and intuitive for users.
 
 Throughout my career, I’ve developed user experiences and product designs for omni-channel platforms. I wear many hats, from collaborating with clients and presenting to stakeholders to gathering insights and running user interviews. One of the most rewarding parts of my work is simplifying complex tasks to make them more accessible for the end user. I enjoy tackling challenging projects and building design libraries that significantly boost our team’s speed and consistency.
@@ -18,8 +18,6 @@ A bit more about me: Moving to 🇨🇦 Canada alone taught me resilience and ad
 
 
 
-IWM
 
 ## Additionally
-
-To see what I'm doing now, check the now page. Or go to archive to see posts in chronological order.
+Due to NDAs, I can’t showcase some of my best work but am happy to share details upon request. 
