@@ -26,11 +26,8 @@ I integrated a section for health articles and interactive content to boost user
 ## Process
 ### Prototyping:
 Joined the project at the prototyping stage and collaborated closely with the design lead to create the required functionalities.
-
-
 ### Iterative design and testing:
 Worked through multiple design iterations, incorporating feedback from project managers and adjusting features to better meet user needs.
-
 ### Tool integration:
 Utilized Sketch for design, Zeplin for handoff to engineers, and InVision App for client presentations and file sharing.
 
