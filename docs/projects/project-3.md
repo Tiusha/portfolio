@@ -3,23 +3,19 @@
 I was part of the UX/UI design team of a sophisticated Telemedicine platform aimed at transforming the American healthcare landscape. My task was to integrate essential medical consultation features — such as video chats, text messaging, and payment systems — into a user-friendly interface that also included health tracking, personalized dashboards, and a resource center filled with informative health articles.
 ![Alt text](../images/project3-main_screen.png){data-zoomable}
 
-# Key challenge
+## Key challenge
 The primary challenge was to merge a wide range of functionalities into a coherent and easy-to-navigate interface that catered to both patients and healthcare professionals, ensuring accessibility while maintaining advanced capabilities.
 ![Alt text](../images/project3-key_challenge.png){data-zoomable}
 
 
-# Thes solution
-## Comprehensive communication tools: 
+## Thes solution
+### Comprehensive communication tools: 
 I designed a seamless suite of communication tools including video calls, messaging, and live chat to enhance interaction between patients and healthcare providers.
 ![Alt text](../images/project3-comprehensive_communication_tools.png){data-zoomable}
-
-
-## Dynamic user profiles and health dashboards: 
+### Dynamic user profiles and health dashboards: 
 I developed detailed user profiles and dashboards that allow patients to monitor their health, manage appointments, and access personalized health content.
 ![Alt text](../images/project3-dynamic_user_profiles.png){data-zoomable}
-
-
-## Resource center integration:
+### Resource center integration:
 I integrated a section for health articles and interactive content to boost user engagement and provide valuable wellness insights.
 ![Alt text](../images/project3-resource_center_integration.png){data-zoomable}
 
@@ -32,7 +28,7 @@ Worked through multiple design iterations, incorporating feedback from project m
 Utilized Sketch for design, Zeplin for handoff to engineers, and InVision App for client presentations and file sharing.
 
 
-# Final design overview
+## Final design overview
 ![Alt text](../images/project3-final_design1.png){data-zoomable}
 ![Alt text](../images/project3-final_design2.png){data-zoomable}
 ![Alt text](../images/project3-final_design3.png){data-zoomable}
