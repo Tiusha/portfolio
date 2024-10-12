@@ -27,7 +27,7 @@
 .vp-doc {
   width: 100% !important;
   max-width: 100% !important;
-  padding: 48px 0 !important;  /* Remove left and right padding, keep top and bottom padding */
+  padding: 0px 0 !important;  /* Remove left and right padding, keep top and bottom padding */
 }
 
 /* Expand the main content area to full width */
