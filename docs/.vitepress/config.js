@@ -1,5 +1,5 @@
 export default {
-  base: '/portfolio/',  // Make sure the trailing slash is present
+  base: '/',  // Make sure the trailing slash is present
   title: 'Anastasia Kozlova',
   description: 'Product Designer',
   ignoreDeadLinks: true,
