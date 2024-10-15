@@ -1,6 +1,6 @@
 Welcome to my professional world! I'm Anastasia Kozlova, a Product/UX Designer with over 6 years of experience crafting intuitive and dynamic  digital experiences. I have led projects from 0 to 1, transforming initial  concepts into fully realized products.   
 
-With a Master’s degree in Industrial Design, I combine deep user empathy  with a strategic design process to deliver solutions that enhance usability  and engage users meaningfully.  Throughout my career, I've had the privilege of collaborating with leading companies and innovative startups, including Microsoft, BAT, XR Server,  and Arcadia.
+With a Master’s degree in Industrial Design, I combine deep user empathy  with a strategic design process to deliver solutions that enhance usability  and engage users meaningfully.   Throughout my career, I've had the privilege of collaborating with leading companies and innovative startups, including Microsoft, BAT, XR Server,  and Arcadia.
 ![Alt text](../docs/images/about-me.png){data-zoomable}
 
 
