@@ -6,7 +6,7 @@ export default {
   themeConfig: {
     nav: [
       { text: 'About me', link: '/about' },
-      { text: 'Resume', link: 'https://drive.google.com/file/d/186Bt50s64FzGeEx0tyDJjmlC7dDWVihz/view' }
+      { text: 'Resume', link: 'https://drive.google.com/file/d/1rvq82GhR_OlRy4r7L7Xa9SLk_gyLVm3e/view?usp=sharing' }
     ],
     sidebar: [
       {
