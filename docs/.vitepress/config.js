@@ -38,5 +38,8 @@ export default {
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/hello-kozlova-ux-ui-designer-/' }
     ],
     outline: false  // Ensure this comma is added
+  },
+  build: {
+    outDir: '.vitepress/dist'  // Explicitly define the output directory
   }
 }
