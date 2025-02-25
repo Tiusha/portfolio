@@ -1,10 +1,10 @@
-name: Deploy VitePress site to Pages
+name: Deploy VitePress site to GitHub Pages
 
 on:
   push:
-    branches: [main]
-
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch:  # allows manual trigger
 
 permissions:
   contents: read
@@ -19,25 +19,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Set up Node
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: npm
-      - name: Clean npm cache
-        run: npm cache clean --force
       - name: Install dependencies
         run: npm install
-      - name: Build
+      - name: Build the site
         run: npm run docs:build
-      - name: Debug build output
-        run: ls -la docs/.vitepress/dist  # ✅ Debugging step to check if build worked
+      - name: Check build output
+        run: ls -la docs/.vitepress/dist  # check the build folder
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4  # ✅ This ensures the deploy job finds the artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: .vitepress/dist  # Specify the correct path to the build directory
+          path: docs/.vitepress/dist  # this is where the output files are
 
   deploy:
     environment:
