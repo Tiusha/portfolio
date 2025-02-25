@@ -33,11 +33,9 @@ jobs:
       - name: Build
         run: npm run docs:build
       - name: Upload artifact
-  uses: actions/upload-artifact@v4
-  with:
-    name: github-pages  # ✅ Matches the expected artifact name in deploy job
-    path: docs/.vitepress/dist
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages  # ✅ Matches the expected artifact name in deploy job
           path: docs/.vitepress/dist
 
   deploy:
