@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,11 +32,11 @@ jobs:
         run: npm install
       - name: Build
         run: npm run docs:build
+      - name: Debug build output
+        run: ls -la docs/.vitepress/dist  # ✅ Debugging step to check if build worked
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages  # ✅ Matches the expected artifact name in deploy job
-          path: docs/.vitepress/dist
+        uses: actions/upload-pages-artifact@v2  # ✅ This ensures the deploy job finds the artifact
+
 
   deploy:
     environment:
