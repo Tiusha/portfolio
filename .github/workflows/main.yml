@@ -32,9 +32,9 @@ jobs:
       - name: Build
         run: npm run docs:build
       - name: Debug build output
-        run: ls -la docs/.vitepress/dist  # ✅ Debugging step to check if build worked
+        run: ls -la docs/.vitepress/dist 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4  # Ensure you're using the v4 version
+        uses: actions/upload-pages-artifact@v2
 
   deploy:
     environment:
@@ -45,4 +45,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4  # Correct v4 version for deployment
+        uses: actions/deploy-pages@v4 
