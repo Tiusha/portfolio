@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-   build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,7 +36,6 @@ jobs:
         run: ls -la docs/.vitepress/dist  # ✅ Debugging step to check if build worked
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2  # ✅ This ensures the deploy job finds the artifact
-
 
   deploy:
     environment:
