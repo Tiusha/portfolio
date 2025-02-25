@@ -1,10 +1,10 @@
-name: Deploy VitePress site to GitHub Pages
+name: Deploy VitePress Site to GitHub Pages
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:  # allows manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -17,34 +17,50 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Set up Node.js
+
+      - name: Set Up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: npm
-      - name: Install dependencies
+
+      - name: Install Dependencies
         run: npm install
-      - name: Build the site
+
+      - name: Build the Site
         run: npm run docs:build
-      - name: Check build output
-        run: ls -la docs/.vitepress/dist  # check the build folder
-      - name: Upload artifact
+
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: vitepress-build
-          path: docs/.vitepress/dist  # this is where the output files are
+          name: build-${{ matrix.os }}
+          path: docs/.vitepress/dist
+
+  merge:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Merge Artifacts
+        uses: actions/upload-artifact/merge@v4
+        with:
+          name: merged-build
+          pattern: build-*
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: merge
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
