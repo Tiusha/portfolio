@@ -22,7 +22,8 @@ Challenges & SolutionsOne of the biggest challenges was designing the event cale
 
 To address this, we initiated close collaboration with the developers, holding frequent meetings to refine the design while maintaining functionality. By working together, we successfully adjusted the design to balance usability and development feasibility.
 
-OutcomeThrough effective collaboration, we delivered a well-structured, user-friendly event calendar that met both user needs and technical constraints. The project was completed on time, ensuring a seamless experience for event attendees across devices.
+Outcome
+Through effective collaboration, we delivered a well-structured, user-friendly event calendar that met both user needs and technical constraints. The project was completed on time, ensuring a seamless experience for event attendees across devices.
 
 
 
