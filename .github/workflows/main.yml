@@ -3,7 +3,6 @@ name: Deploy VitePress site to Pages
 on:
   push:
     branches: [main]
-
   workflow_dispatch:
 
 permissions:
@@ -32,10 +31,12 @@ jobs:
         run: npm install
       - name: Build
         run: npm run docs:build
+      - name: Check build output
+        run: ls -la docs/.vitepress/dist  # Verify build output
       - name: Upload artifact
-        uses: actions/upload-artifact@v4  # Updated to v4
+        uses: actions/upload-artifact@v4  # Use v4 for upload
         with:
-          name: vitepress-build  # Name the artifact for consistency
+          name: github-pages  # Change artifact name to 'github-pages'
           path: docs/.vitepress/dist
 
   deploy:
@@ -46,10 +47,10 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4  # Updated to v4
+        uses: actions/download-artifact@v4  # Use v4 for download
         with:
-          name: vitepress-build  # Matches the name used above
+          name: github-pages  # Match artifact name
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
