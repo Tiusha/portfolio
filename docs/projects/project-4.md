@@ -1,5 +1,5 @@
 
-Event Streaming & Engagement App
+Event Streaming & Engagement App!!!111
 
 OverviewI worked as a UX/UI designer on an application designed to streamline life events and provide virtual event experiences. The platform enables users to watch events live or on-demand while engaging through interactive features such as Q&A sessions, polls, and live chat with other attendees.
 
