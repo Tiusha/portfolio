@@ -32,6 +32,12 @@ export default {
         items: [
           { text: 'Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
         ]
+      },
+            {
+        text: 'Project #5',
+        items: [
+          { text: 'Mobile Nutrition App', link: '/projects/project-5' }
+        ]
       }
     ],
     socialLinks: [
