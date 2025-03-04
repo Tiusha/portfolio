@@ -13,9 +13,7 @@ I’ve worked with companies like Microsoft, BAT, and innovative startups, colla
 Outside of design, I’m endlessly curious about human behavior, enjoy playing rocket sports, and religiously go to the gym. If you ever want to chat about travel, psychology, or great food - I’m all in!
 
 Looking for a designer who’s strategic, adaptable, and ready to make an impact? Let’s connect! 🚀
-
 ![Alt text](../docs/images/about-me_picture.jpg){data-zoomable}
-
 
 
 
