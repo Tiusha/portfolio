@@ -3,16 +3,16 @@ layout: doc
 ---
 
 # Hi there! 👋🏻
-I'm Anastasia, a naturally curious product designer with a love for learning and a deep appreciation for both soft and hard skills. I believe that great design is not just about creating something beautiful but also about making it meaningful and intuitive for users.
+Hey there! I'm Anastasia Kozlova, a Product Designer with 6+ years of experience crafting intuitive, scalable, and engaging digital experiences.
 
-Throughout my career, I’ve developed user experiences and product designs for omni-channel platforms. I wear many hats, from collaborating with clients and presenting to stakeholders to gathering insights and running user interviews. One of the most rewarding parts of my work is simplifying complex tasks to make them more accessible for the end user. I enjoy tackling challenging projects and building design libraries that significantly boost our team’s speed and consistency.
+I’ve led projects from 0 to 1, turning ideas into fully functional products across industries like finance, healthcare, entertainment, and e-commerce. With a Master’s in Industrial Design, I blend logic with creativity, ensuring every solution is both strategic and user-centered.
 
-My passion for optimizing workflows drives me to reduce cognitive load for users. Whether I’m creating intuitive filters or refining design elements, I always aim to make the experience as accessible and seamless as possible. I have a solid understanding of accessibility standards and am committed to crafting inclusive designs for all users.
+From conducting research and running user interviews to building design systems that enhance efficiency, my passion is reducing cognitive load, optimizing workflows, and making products seamless and accessible for all users.
+I’ve worked with companies like Microsoft, BAT, and innovative startups, collaborating closely with developers, PMs, and stakeholders to bring impactful solutions to life. I always aim for designs that not only look great but truly work.
 
-With over five years of experience in designing for web and native apps, I’m skilled at adapting designs to each platform’s unique needs. My work spans various industries, including D2C, B2B, B2C, public sector, healthcare, finance, and entertainment. I’ve built projects from the ground up in startup settings, taking on every stage of the design process. Collaborating with developers, product managers, and stakeholders, I strive to create scalable and impactful solutions.
+Outside of design, I’m endlessly curious about human behavior, always looking for ways to create more meaningful user experiences. Also, if you ever want to chat about travel, psychology, or great food—I’m all in!
 
-A bit more about me: Moving to 🇨🇦 Canada alone taught me resilience and adaptability—qualities I bring into every design challenge with a smile and a creative twist. I’m logical, empathetic, and genuinely invested in crafting designs that make users happy because I believe happy users lead to successful businesses.
-
+Looking for a designer who’s strategic, adaptable, and ready to make an impact? Let’s connect! 🚀
 
 
 
