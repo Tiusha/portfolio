@@ -30,7 +30,7 @@ export default {
       {
         text: 'Project #4',
         items: [
-          { text: 'Supercharging recruitment with fast, easy-to-use software', link: '/projects/project-4' }
+          { text: 'Engagement-Driven Virtual Event Platform', link: '/projects/project-4' }
         ]
       },
             {
