@@ -9,15 +9,11 @@ The platform also offers detailed event pages with speaker bios, personalized sc
 # Team & Collaboration
 The project was developed by a cross-functional team, including:
 
-3 UX/UI Designers
-
-Design Lead
-
-Developers
-
-Stakeholders
-
-Project Managers
+- 3 UX/UI Designers
+- Design Lead
+- Developers
+- Stakeholders
+- Project Managers
 
 My specific role focused on designing the tablet and desktop breakpoints for the platform.
 
