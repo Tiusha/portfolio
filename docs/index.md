@@ -18,5 +18,3 @@ Looking for a designer who’s strategic, adaptable, and ready to make an impact
 
 
 
-## Additionally
-Due to NDAs, I can’t showcase some of my best work but am happy to share details upon request. 
