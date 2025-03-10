@@ -1,7 +1,7 @@
 ## Easy to use app
 # With faster food logging workflows on the market
 I currently work on creating an app what will help log in food faster with less efforts with a help of AI
-![Alt text](../images/project5-survey1.png){data-zoomable}
+![Alt text](../images/Project5_desctop _subscription.png){data-zoomable}
 
 ## Key challenge
 The primary challenge is to do the research and see what are the main pain points for user with current apps
@@ -14,5 +14,10 @@ The primary challenge is to do the research and see what are the main pain point
 ![Alt text](../images/project5-wireframes2.png){data-zoomable}
 ![Alt text](../images/project5-wireframes3.png){data-zoomable}
 
+## Prototypes
 
+![Alt text](../images/Project5- mob app intro.png){data-zoomable}
+![Alt text](../images/Project5- mob app signup.png){data-zoomable}
+
+This project is still in development, with developers currently focused on building the mobile application.
 
