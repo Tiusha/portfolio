@@ -17,7 +17,7 @@ The primary challenge is to do the research and see what are the main pain point
 ## Prototypes
 
 ![Alt text](../images/Project5- mob app intro.png){data-zoomable}
-![Alt text](../images/Project5- mob app signup.png){data-zoomable}
+![Alt text](../images/project5- mob app signup.png){data-zoomable}
 
 This project is still in development, with developers currently focused on building the mobile application.
 
